@@ -68,7 +68,7 @@ You can check the log in `celestia-node-monitor.log`
 
 ## Run as a service
 ```
-sudo tee /etc/systemd/system/clelestia-node-monitor.service > /dev/null << EOF
+sudo tee /etc/systemd/system/celestia-node-monitor.service > /dev/null << EOF
 [Unit]
 Description=celestia-node-monitor
 After=network-online.target
