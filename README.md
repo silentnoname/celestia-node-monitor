@@ -26,7 +26,9 @@ then edit .env file
 
 ## Edit config.toml
 `cp config.toml.example config.toml`
-then edit config.toml file
+
+then edit `config.toml` file
+
 Configure the following parameters in the `config.toml` file:
 
 * `[node]` section:
