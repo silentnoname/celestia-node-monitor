@@ -98,3 +98,9 @@ check logs
 sudo journalctl -fu  celestia-node-monitor  -o cat
 ```
 
+## Example alert
+
+
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/89fbf31c-f5e5-43fc-9244-29bfe49beb44">
+
+
