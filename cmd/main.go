@@ -27,7 +27,7 @@ func main() {
 	log.Log.Info("Nodes to check: " + strings.Join(nodeURLs, ", "))
 	log.Log.Info("Will alert when node balance is less than " + strconv.Itoa(cfg.Node.MinimumBalance) + " utia")
 	log.Log.Info("Will check node performance every 5 minutes")
-	ticker := time.NewTicker(1 * time.Minute)
+	ticker := time.NewTicker(5 * time.Minute)
 	for range ticker.C {
 		log.Log.Info("Start to check node performance")
 		nodePerformances:= monitor.CheckNodes(*cfg)
