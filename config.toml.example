@@ -1,0 +1,28 @@
+[node]
+
+standardConsensusRPC="https://rpc-mocha.pops.one/"
+
+# Minimum balance of the da node , the denom is utia
+minimumBalance=1000000
+
+
+# The default api is http://localhost:26658 
+[[node.APIs]]
+URL = "http://localhost:26658"
+Token = "your_auth_token_here"
+
+#if you have more than one node, you can add more like this
+#[[node.APIs]]
+#URL = "http://localhost:26658"
+#Token = "your_auth_token_here"
+
+# Minimum balance of the da node , the denom is utia
+minimumBalance=1000000
+
+[discord]
+
+# discord userid, can be empty https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
+alertuserid=[""]
+
+# discord role id, can be empty https://www.itgeared.com/how-to-get-role-id-on-discord/
+alertroleid=[""]
