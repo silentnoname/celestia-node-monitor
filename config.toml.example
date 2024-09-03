@@ -16,9 +16,6 @@ Token = "your_auth_token_here"
 #URL = "http://localhost:26658"
 #Token = "your_auth_token_here"
 
-# Minimum balance of the da node , the denom is utia
-minimumBalance=1000000
-
 [discord]
 
 # discord userid, can be empty https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
